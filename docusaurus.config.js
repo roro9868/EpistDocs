@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Stealth Mode',
+  title: 'Epist Docs',
   tagline: 'Proliferate Knowledge to Change the World',
   url: 'https://stealthmode290.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon2.png',
-  organizationName: 'StealthMode', // Usually your GitHub org/user name.
-  projectName: 'StealthMode Test Site', // Usually your repo name.
+  organizationName: 'Epist', // Usually your GitHub org/user name.
+  projectName: 'Epist Documentation', // Usually your repo name.
 
   presets: [
     [
@@ -51,14 +51,14 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
-            label: 'About',
+            label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://epist.xyz/',
+            label: 'Home',
             position: 'right',
           },
         ],
@@ -67,11 +67,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'About',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Overview',
+                to: '/docs/overview',
               },
             ],
           },
@@ -80,11 +80,11 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/',
               },
             ],
           },
@@ -97,12 +97,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/epist-xyz',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} StealthMode, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Epist, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
