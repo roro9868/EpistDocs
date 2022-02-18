@@ -4,4 +4,7 @@ sidebar_position: 22
 
 # Posting a Question
 
-[UNDER CONSTRUCTION]
+## How to Post a Question
+Posting a question is easy! 
+
+[TBD]
