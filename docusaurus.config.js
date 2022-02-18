@@ -15,7 +15,16 @@ const config = {
   favicon: 'img/favicon2.png',
   organizationName: 'Epist', // Usually your GitHub org/user name.
   projectName: 'Epist Documentation', // Usually your repo name.
-
+  // stylesheets: [
+  //   'https://fonts.googleapis.com/css?family=Material+Icons',
+  //   {
+  //     href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+  //     integrity:
+  //       'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
+  //     crossorigin: 'anonymous',
+  //   },
+  // ],
+  
   presets: [
     [
       'classic',
@@ -39,6 +48,23 @@ const config = {
     ],
   ],
 
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"], 
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -50,12 +76,17 @@ const config = {
         },
         items: [
           {
+            type: 'search',
+            position: 'right',
+          },
+          {
             type: 'doc',
             docId: 'overview',
             position: 'left',
             label: 'Docs',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/team', label: 'Team', position: 'right' },
           {
             href: 'https://epist.xyz/',
             label: 'Home',
@@ -96,6 +127,10 @@ const config = {
               //   to: '/blog',
               // },
               {
+                label: 'Team',
+                to: 'team',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/epist-xyz',
               },
@@ -105,8 +140,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Epist, Inc.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        lightTheme: lightCodeTheme,
       },
     }),
 };
