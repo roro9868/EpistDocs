@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# EPI Tokenomics
+# EPI Tokenomics 
 
 ## EPI Allocation (Illustrative, TBD)
 
@@ -16,5 +16,9 @@ sidebar_position: 2
 | `Community Treasury` | 50.0% | E500,000,000 |
 | **`Total`** | **100%** | **E1,000,000,000** |
 
+<br/>
+
 ## EPI Release Schedule
+
+![Tradable Tokens Schedule](../static/img/token-release-schedule.png)
 
