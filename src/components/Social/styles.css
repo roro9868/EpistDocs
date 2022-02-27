@@ -22,13 +22,13 @@
 }
 
 .social__link:hover {
-  background-color: var(--ifm-color-primary) !important;
+  background-color: var(--ifm-color-primary-darkest) !important;
 }
 
 .social__title {
   display: none;
   font-weight: 500;
-  color: var(--ifm-color-gray-0);
+  color: var(--ifm-color-gray-400);
 }
 
 @media (min-width: 1064px) {

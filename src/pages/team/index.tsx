@@ -1,12 +1,12 @@
 import React from 'react';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import Layout from '@theme/Layout';
 // import Link from './../../@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './../index.module.css';
-// import HomepageFeatures from '../../components/HomepageFeatures';
+// import styles from './../index.module.css';
 import TeamMember from './member';
-import config from './config.json';
+// import config from './config.json';
+const config = require("./config.json");
 
 export default function Team() {
   const {siteConfig} = useDocusaurusContext();

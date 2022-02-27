@@ -1,8 +1,8 @@
 [
     {
-      "name": "roro",
-      "title": "Wen Wiki DAO?",
-      "image_url": "https://avatars.githubusercontent.com/u/77154511?v=4",
+      "name": "Ro",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
       "social_links": [
         "https://github.com/",
         "https://twitter.com/",
@@ -10,42 +10,74 @@
       ]
     },
     {
-      "name": "Dr. Electron",
-      "title": "Frontend what?",
-      "image_url": "https://avatars.githubusercontent.com/u/61637085?v=4",
+      "name": "Kevin",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
       "social_links": [
-        "https://github.com/dr-electron",
-        "https://twitter.com/Dr_Electron",
-        "https://discordapp.com/users/452961361421664288/"
+        "https://github.com/",
+        "https://twitter.com/",
+        "https://discordapp.com/"
       ]
     },
     {
-      "name": "Jeroen van den Hout",
-      "title": "Breathes frontend",
-      "image_url": "https://avatars.githubusercontent.com/u/22611689?v=4",
+      "name": "Richie",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
       "social_links": [
-        "https://github.com/jlvandenhout",
-        "https://discordapp.com/users/453235678386585601/"
+        "https://github.com/",
+        "https://twitter.com/",
+        "https://discordapp.com/"
       ]
     },
     {
-      "name": "Critical",
-      "title": "Not the new guy anymore. Still brings the coffee tho",
-      "image_url": "https://avatars.githubusercontent.com/u/53269239?v=4",
+      "name": "Sun",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
       "social_links": [
-        "https://github.com/Critical94",
-        "https://twitter.com/KilianCrit",
-        "https://discordapp.com/users/476898087693058058/"
+        "https://github.com/",
+        "https://twitter.com/",
+        "https://discordapp.com/"
       ]
     },
     {
-      "name": "JSto",
-      "title": "Could be a great artist. Spends too much time in spec",
-      "image_url": "https://avatars.githubusercontent.com/u/90569726?v=4",
+      "name": "Jeff",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
       "social_links": [
-        "https://github.com/JSto91",
-        "https://twitter.com/jan_stojanovic",
-        "https://discordapp.com/users/199998423057825792/"
+        "https://github.com/",
+        "https://twitter.com/",
+        "https://discordapp.com/"
+      ]
+    }
+    ,
+    {
+      "name": "JJ",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
+      "social_links": [
+        "https://github.com/",
+        "https://twitter.com/",
+        "https://discordapp.com/"
+      ]
+    },
+    {
+      "name": "Jesse",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
+      "social_links": [
+        "https://github.com/",
+        "https://youtube.com/",
+        "https://discordapp.com/"
+      ]
+    },
+    {
+      "name": "Yao",
+      "title": "Builder",
+      "image_url": "img/team/ro.png",
+      "social_links": [
+        "https://github.com/",
+        "https://youtube.com/",
+        "https://discordapp.com/"
       ]
     }
   ]
