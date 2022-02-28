@@ -16,7 +16,7 @@ export default function Team() {
         <div className='container'>
           <div className='text--center margin-bottom--lg'>
             <h1 className='hero__title margin--none'>Epist Team</h1>
-            <p>We are currenlty a stealth project (our excuse for the non working social links) led by a team from Stanford University</p>
+            <p>We are currenlty a stealth project (our excuse for the non working social links) led by a team from Stanford University, supported by the most amazing remote contributors 🥰</p>
           </div>
           <div className='row'>
             {config &&
