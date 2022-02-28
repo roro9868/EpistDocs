@@ -102,6 +102,10 @@ const config = {
                 to: 'team',
               },
               {
+                label: 'Contact',
+                to: 'mailto:admin@epist.xyz',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/epist-xyz',
               },
