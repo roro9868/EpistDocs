@@ -15,15 +15,6 @@ const config = {
   favicon: 'img/favicon2.png',
   organizationName: 'Epist', // Usually your GitHub org/user name.
   projectName: 'Epist Documentation', // Usually your repo name.
-  // stylesheets: [
-  //   'https://fonts.googleapis.com/css?family=Material+Icons',
-  //   {
-  //     href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
-  //     integrity:
-  //       'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
-  //     crossorigin: 'anonymous',
-  //   },
-  // ],
   
   presets: [
     [

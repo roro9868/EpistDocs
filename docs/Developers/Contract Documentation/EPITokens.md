@@ -2,6 +2,14 @@
 sidebar_position: 201
 ---
 
-# [ Contract 1 ] 
+# EPITokens
+
+## Methods
+
+<br/>
+
+## Events
+
+<br/>
 
 [Under Construction]

@@ -14,7 +14,7 @@ High quality information and advice is **sparse and hard to find**.
 Existing incentive structures to share knowledge result in **suboptimal options**: 
 - `Free Sources`: littered with low-quality responses and unwanted ads, plus the corporations take all the money while contributors make none
   
-- `Paid Channels`: Expensive (expert networks charge $1,200/hr), yet still fail to adequately address the needs of the askers
+- `Paid Channels`: Expensive (expert networks charge $1,200+/hr), yet still fail to adequately address the needs of the askers
 
 <br/>
 
