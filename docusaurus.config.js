@@ -21,17 +21,21 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-HXV3F8LGLR',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/roro9868/EpistDocs',
           routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/roro9868/EpistDocs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -40,7 +44,7 @@ const config = {
     ],
   ],
 
-  themes: ['@easyops-cn/docusaurus-search-local',],
+  // themes: ['@easyops-cn/docusaurus-search-local',],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
